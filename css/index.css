@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 200px;
+    margin: 0;
+}
+.container p{
+    font-size: 25px;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.spawn{
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.spawn.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+#cont1{
+    background-color: blueviolet;
+}
+#cont2{
+    background-color: rgb(20, 82, 162);
+}
